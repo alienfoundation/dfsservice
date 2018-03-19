@@ -53,7 +53,7 @@ nav .navbar-brand img {
 }
 
 .intro h6 {
-    font-weight: 300;
+    font-weight: 400;
     color: #777;
     font-size: 18px;
     margin-top: 15px;
@@ -61,7 +61,7 @@ nav .navbar-brand img {
 }
 
 .intro p {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     font-size: 15px;
     margin-top: 25px;
@@ -86,8 +86,9 @@ nav .navbar-brand img {
     padding: 12px 25px;
     color: #fafafa;
     font-size: 14px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .bottom-arrow {
@@ -138,7 +139,7 @@ nav .navbar-brand img {
     color: #fff;
     font-weight: 400;
     font-size: 15px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
 }
 
 .what-we-offer {
@@ -216,7 +217,7 @@ nav .navbar-brand img {
 }
 
 .what-we-offer .wwf-card p {
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 10px;
     color: #777;
     font-size: 15px;
