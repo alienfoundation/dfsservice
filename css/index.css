@@ -1,0 +1,262 @@
+body * {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+nav {
+    padding: 0 !important;
+    background: #fff;
+    box-shadow: 0 0 15px -4px rgba(0, 0, 0, 0.14), 0 0 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+nav .navbar-brand {
+    padding: 0;
+}
+
+nav .navbar-brand img {
+    transform: scale(0.7);
+}
+
+.intro {
+    background: #fafafa;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.intro .content {
+    padding-right: 70px;
+}
+
+.intro h1 {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    color: #555;
+}
+
+.intro hr {
+    width: 80px;
+    display: inline-block;
+    border: none;
+    border-top: 3px solid #f8c246;
+}
+
+.intro h6 {
+    font-weight: 300;
+    color: #777;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 25px;
+    padding-right: 20px;
+    color: #777;
+}
+
+.intro-image {
+    height: 300px;
+    background: url('../assets/images/homecover.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.intro .contact-us-btn {
+    background: #ecb73e;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 12px 25px;
+    color: #fafafa;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+
+.bottom-arrow {
+    text-align: center;
+}
+
+.bottom-arrow i {
+    font-size: 50px;
+    color: #fff;
+    background: #d46366;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    top: -35px;
+}
+
+.about {
+    background: #c05353;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.about .heading {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about .content .tab {
+    padding: 40px 50px;;
+}
+
+.about .content .tab h5 {
+    background: #f5f6ff;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+
+.about .content .tab p {
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.what-we-offer {
+    padding: 40px 0;
+    background: #fafafa;
+}
+
+.what-we-offer .heading {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #555;
+}
+
+.what-we-offer hr {
+    border: none;
+    border-top: 3px solid #c05352;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.what-we-offer .wwf-card {
+    width: 23%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background: #fff;
+    display: inline-block;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.20);
+    transition: box-shadow 0.4s ease-out;
+    cursor: pointer;
+}
+
+.what-we-offer .wwf-card:hover {
+    box-shadow: 0 0 20px -3px rgba(0,0,0,0.28);
+}
+
+.what-we-offer .wwf-card .wwf-card-image {
+    height: 150px;
+}
+
+.what-we-offer .wwf-card:nth-child(1) .wwf-card-image {
+    background: url("../assets/images/security_grid.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.what-we-offer .wwf-card:nth-child(2) .wwf-card-image {
+    background: url("../assets/images/video_door.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.what-we-offer .wwf-card:nth-child(3) .wwf-card-image {
+    background: url("../assets/images/smart_ip_cam.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.what-we-offer .wwf-card:nth-child(4) .wwf-card-image {
+    background: url("../assets/images/personal_tracker.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.what-we-offer .wwf-card .wwf-card-content {
+    padding: 20px 30px;
+}
+
+.what-we-offer .wwf-card h4 {
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+}
+
+.what-we-offer .wwf-card p {
+    font-weight: 300;
+    margin-top: 10px;
+    color: #777;
+    font-size: 15px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.what-we-offer .wwf-card .right-arrow {
+    text-align: right;
+}
+
+footer {
+    background: #353535;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer img {
+    transform: scale(0.7);
+}
+
+footer h6 {
+    color: #fafafa;
+    font-weight: 400;
+}
+
+footer a {
+    display: inline-block;
+    color: #999;
+    font-weight: 300;
+    transition: color 0.3s ease-out;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+footer p {
+    color: #999;
+    font-weight: 300;
+}
