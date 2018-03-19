@@ -261,3 +261,10 @@ footer p {
     color: #999;
     font-weight: 400;
 }
+
+.header-img {
+    background: url('../assets/images/homecover.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
